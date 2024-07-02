@@ -47,3 +47,29 @@ code {
 .success {
   color: green;
 }
+
+.button-container {
+  display: flex; /* Utilisation de flexbox pour aligner les éléments */
+  justify-content: space-between; /* Espace égal entre les boutons */
+}
+
+.button-container button {
+  margin: 5px; /* Optionnel: ajoute un peu d'espace autour de chaque bouton */
+}
+
+.button-container a {
+  text-decoration: none; /* Supprime la décoration de lien par défaut */
+  color: inherit; /* Utilise la couleur du texte du bouton */
+  display: block; /* Permet au lien de remplir entièrement le bouton */
+  padding: 10px 20px; /* Optionnel: ajoute du padding au lien pour améliorer l'apparence */
+  margin-top: 5rem;
+}
+
+.mt-5 {
+  margin-top: 5rem;
+}
+.footer {
+  background: #f8f9fa;
+  padding: 10px;
+  text-align: center;
+}

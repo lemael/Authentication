@@ -11,14 +11,14 @@
     />
     <link href="/static/style.css" rel="stylesheet" />
   </head>
-  <body class="d-flex flex-column h-100 min-vh-100">
+  <body class="d-flex flex-column h-100">
     <header>
       <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
         <a class="navbar-brand" href="#">System Authentication</a>
       </nav>
     </header>
-    {% block content %}{% endblock content %}
-    <footer class="footer mt-auto py-3">
+    <main class="flex-fill">{% block content %}{% endblock content %}</main>
+    <footer class="footer mt-auto py-3 bg-light">
       <div class="container">
         <span class="text-muted"><a href="#">Mael Pro</a></span>
       </div>
