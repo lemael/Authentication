@@ -73,3 +73,7 @@ code {
   padding: 10px;
   text-align: center;
 }
+
+.login-border {
+  border: 2px solid red;
+}

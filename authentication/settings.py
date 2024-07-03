@@ -37,8 +37,16 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    'django.contrib.sites',
     'app',
 ]
+SITE_ID = 1
+EMAIL_BACKEND = 'django.core.mail.backends.console.EmailBackend'
+EMAIL_HOST = 'smtp.mailersend.net'
+EMAIL_PORT = 587
+EMAIL_USE_TLS = True
+EMAIL_HOST_USER = 'MS_JFJbzE@trial-z86org8dvpnlew13.mlsender.net'
+EMAIL_HOST_PASSWORD = 'Mw5QF6zdRbpJWLM2'
 
 MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',
