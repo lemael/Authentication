@@ -79,7 +79,7 @@ def logIn(request):
     else:
         fm = SignInForm()
 
-    return render(request, 'app/login.html', {'fm': fm})
+    return render(request, 'app/login.html', {'form': fm})
 def logOut(request):
   logout(request)
   messages.success(request, 'You have been disconnected')
