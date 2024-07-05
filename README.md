@@ -14,3 +14,7 @@ This is a Django 4.2.13 based System Authentication.
     python3 manage.py migrate
     python3 manage.py createsuperuser
     python3 manage.py runserver
+
+#Preview
+![Bildschirmaufzeichnungvom05 07 2024202928-ezgif com-video-to-gif-converter](https://github.com/lemael/Authentication/assets/31794366/ddbcc0e7-369c-40df-ab1a-3a4ff289d20b)
+
