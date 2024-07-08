@@ -1,18 +1,18 @@
 {% extends 'base.html' %} {% block content %}
-<div class="button-container mt-5 row justify-content-center">
+<div class="mt-5 row justify-content-center">
   <div class="mt-5">
     {% if user.is_authenticated %}
     <h1>Hi {{ user.username }}!</h1>
-    <button type="submit" class="btn btn-primary mx-2">
+    <button type="submit" class="btn btn-primary">
       <a href="/logout" class="text-white text-decoration-none">Logout</a>
     </button>
     {% else %}
 
-    <button type="submit" class="btn btn-primary mx-2">
+    <button type="submit" class="btn btn-primary">
       <a href="/register" class="text-white text-decoration-none">Register</a>
     </button>
-    <button type="submit" class="btn btn-primary mx-2">
-      <a href="/login" class="text-white text-decoration-none">Login</a>
+    <button type="submit" class="btn btn-primary">
+      <a href="/login" class="text-white">Login</a>
     </button>
     {% endif %} {% if messages %} {% for message in messages %}
     <small {% if message.tags %} class="{{ message.tags }}" {% endif %}

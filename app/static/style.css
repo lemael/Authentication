@@ -51,11 +51,6 @@ code {
 .mt-5 {
   margin-top: 5rem;
 }
-.footer {
-  background: #f8f9fa;
-  padding: 10px;
-  text-align: center;
-}
 
 .login-border {
   border: 2px solid red;
